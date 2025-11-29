@@ -4,6 +4,7 @@ import AppRoutes from '../routes.jsx';
 import { Link } from 'react-router-dom';
 import Logo from './Logo.jsx';
 
+
 const App = () => {
 
 
@@ -13,7 +14,7 @@ const App = () => {
       <header className="top-header">
         <div className="logo-search">
           <Logo />
-          <form className="search-bar">
+          {/* <form className="search-bar">
             <input type="text" placeholder="Pesquisar produto..." />
             <button type="submit" aria-label="Buscar">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a0a0a0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -21,7 +22,7 @@ const App = () => {
                 <line x1="16.65" y1="16.65" x2="21" y2="21" />
               </svg>
             </button>
-          </form>
+          </form> */}
         </div>
         <nav className="main-nav">
           <ul>
